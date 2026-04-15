@@ -43,7 +43,7 @@ sudo apt install -y docker-ce
 
 **Output / Hasil:**
 
-![Step 2]("Screenshot 2026-04-15 141941.png")
+!![Step 2](Screenshot%202026-04-15%20141941.png)
 
 **To install cri-dockerd for Docker support**
 
@@ -81,7 +81,7 @@ sudo systemctl enable --now cri-docker.socket
 
 **Output / Hasil:**
 
-![Step 3]("Screenshot 2026-04-15 142038.png")
+!![Step 3](Screenshot%202026-04-15%20142038.png)
 
 > Add the GPG key for kubernetes
 
@@ -140,7 +140,7 @@ sudo sysctl --system
 
 **Output / Hasil:**
 
-![Step 4]("Screenshot 2026-04-15 142219.png")
+!![Step 4](Screenshot%202026-04-15%20142219.png)
 
 ### Disable SWAP
 
@@ -157,7 +157,7 @@ sudo vim /etc/fstab
 
 **Output / Hasil:**
 
-![Step 5]("Screenshot 2026-04-15 142306.png")
+!![Step 5](Screenshot%202026-04-15%20142306.png)
 
 ### On the Control Plane server (Master node)
 
@@ -181,7 +181,7 @@ kubeadm join <control_plane_ip>:6443 --token 31rvbl.znk703hbelja7qbx --cri-socke
 
 **Output / Hasil:**
 
-![Step 6]("Screenshot 2026-04-15 142306.png")
+!![Step 6](Screenshot%202026-04-15%20142346.png)
 
 > To start using the cluster with current user.
 
@@ -193,7 +193,7 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
 **Output / Hasil:**
 
-![Step 7]("Screenshot 2026-04-15 143417.png")
+!![Step 7](Screenshot%202026-04-15%20143417.png)
 
 > To set up the Calico network
 
@@ -210,9 +210,9 @@ kubectl create -f custom-resources.yaml
 
 **Output / Hasil:**
 
-![Step 8]("Screenshot 2026-04-15 143444.png")
+!![Step 8](Screenshot%202026-04-15%20143444.png)
 
-![Step 9]("Screenshot 2026-04-15 143507.png")
+!![Step 9](Screenshot%202026-04-15%20143507.png)
 
 > Check the nodes
 
@@ -223,7 +223,7 @@ kubectl get nodes
 
 **Output / Hasil:**
 
-![Step 10]("Screenshot 2026-04-15 143539.png")
+!![Step 10](Screenshot%202026-04-15%20143539.png)
 
 ### On each of Data plane node (Worker node)
 
@@ -270,7 +270,7 @@ rm -rf kubernetes_installation_docker/
 
 **Output / Hasil:**
 
-![Step 11]("Screenshot 2026-04-15 144357.png")
+!![Step 11](Screenshot%202026-04-15%20144357.png)
 
 3. _Adding the Kubernetes Dashboard Helm Repository:_
    Add the repository and verify it:
@@ -339,4 +339,4 @@ kubectl apply -f k8s-dash.yaml
 
 **Output / Hasil:**
 
-![Step 12]("Screenshot 2026-04-15 144859.png")
+!![Step 12](Screenshot%202026-04-15%20144859.png)
