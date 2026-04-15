@@ -27,7 +27,7 @@ sudo mv ./docker-archive-keyring.gpg /etc/apt/trusted.gpg.d/
 
 **Output / Hasil:**
 
-![Step 1](Screenshot 2026-04-15 141833.png)
+!![Step 1](Screenshot%202026-04-15%20141833.png)
 
 > Add the docker repository and install docker
 
