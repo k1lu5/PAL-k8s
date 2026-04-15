@@ -181,7 +181,7 @@ kubeadm join <control_plane_ip>:6443 --token 31rvbl.znk703hbelja7qbx --cri-socke
 
 **Output / Hasil:**
 
-!![Step 6](Screenshot%202026-04-15%20142346.png)
+!![Step 6](Screenshot%202026-04-15%20143046.png)
 
 > To start using the cluster with current user.
 
