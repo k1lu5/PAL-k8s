@@ -552,6 +552,12 @@ SHOW TABLES;
 SELECT * FROM users;
 ```
 
+**Output / Hasil:**
+
+!![Step 21](Screenshot%202026-04-15%20181411.png)
+
+!![Step 22](Screenshot%202026-04-15%20181809.png)
+
 ## 11. Accessing the Application
 
 ### Login Application
@@ -563,7 +569,7 @@ SELECT * FROM users;
 
 **Output / Hasil:**
 
-!![Step 21](Screenshot%202026-04-15%20151811.png)
+!![Step 23](Screenshot%202026-04-15%20151811.png)
 
 ### Kubernetes Dashboard
 
@@ -572,6 +578,10 @@ SELECT * FROM users;
   ```bash
   kubectl create token widhi -n kube-system --duration=24h
   ```
+
+**Output / Hasil:**
+
+!![Step 24](image.png)
 
 This completes the deployment of the login web application with MySQL on Kubernetes.
 
