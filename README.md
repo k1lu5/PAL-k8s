@@ -1,3 +1,11 @@
+---
+Anggota Kelompok:
+
+1. MOZAKI - 235150201111045
+2. MOCHAMMAD ATTILA EKA RAHARJO - 	235150201111051
+3. M. WAHYU LILLAH - 	235150207111050
+---
+
 # Kubernetes Installation on Ubuntu 22.04/24.04
 
 Get the detailed information about the installation from the below-mentioned websites of **Docker** and **Kubernetes**.
